@@ -2,7 +2,7 @@
 
 const { argv } = require('process');
 
-function factorial(n) {
+function factorial (n) {
   if (Number.isNaN(n) || n <= 1) {
     return 1;
   }
